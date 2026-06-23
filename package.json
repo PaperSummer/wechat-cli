@@ -1,0 +1,52 @@
+{
+  "name": "@spritesensei/wechat-cli",
+  "version": "1.0.1",
+  "description": "WeChat CLI — send/receive WeChat messages via @wechatbot/wechatbot SDK",
+  "type": "module",
+  "bin": {
+    "wechat-cli": "bin/wechat-cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "README.md"
+  ],
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "cli",
+    "chatbot",
+    "ilink"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spritesensei/wechat-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snowball-dev/wechat-cli/issues"
+  },
+  "homepage": "https://github.com/snowball-dev/wechat-cli#readme",
+  "license": "MIT",
+  "agents": {
+    "skills": {
+      "wechat-cli": {
+        "description": "WeChat CLI tool — send/receive messages via @wechatbot/wechatbot SDK",
+        "path": "./skills/wechat-cli/SKILL.md"
+      }
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@wechatbot/wechatbot": "^2.1.1",
+    "commander": "^13.0.0",
+    "open": "^10.0.0",
+    "qrcode": "^1.5.0"
+  }
+}

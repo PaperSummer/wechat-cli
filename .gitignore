@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Superpowers / AI agent files
+.superpowers/
+.agents/
+.claude/
+CLAUDE.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docs
+docs/
+
+# OS
+.DS_Store
+*.log
+Thumbs.db
+
+# Build / Output
+dist/
+build/
+*.tsbuildinfo
+*.tgz
+
+# Runtime
+.env
+.env.*

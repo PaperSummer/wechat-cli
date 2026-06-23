@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "wechat-cli": {
+      "source": "D:\\WebStromProjects\\wechat-cli",
+      "sourceType": "local",
+      "computedHash": "9bbac63f95e70ffb0edb9050bf67376a279af269f38b503fafd6ba8f3b58fae4"
+    }
+  }
+}
