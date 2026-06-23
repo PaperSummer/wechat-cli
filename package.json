@@ -1,6 +1,6 @@
 {
   "name": "@spritesensei/wechat-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "WeChat CLI — send/receive WeChat messages via @wechatbot/wechatbot SDK",
   "type": "module",
   "bin": {
