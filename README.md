@@ -1,5 +1,7 @@
 # wechat-cli
 
+> 🎵 完全由 Vibe Coding 驱动 — 全程自然语言对话生成，未经手动编写一行代码。
+
 基于 `@wechatbot/wechatbot` SDK 的微信命令行工具，类似 lark-cli 风格。
 
 ```bash
